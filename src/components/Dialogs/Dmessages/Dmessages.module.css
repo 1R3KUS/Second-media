@@ -1,0 +1,8 @@
+.dMessages {
+  grid-area: m;
+  background-color: #000;
+  background-color: #b4b4b4;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+}

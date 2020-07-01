@@ -1,0 +1,13 @@
+.header {
+  height: 75px;
+  background-color: rgb(46, 46, 46);
+}
+
+.headerWrapper {
+  width: 1800px;
+  margin: 0 auto;
+}
+
+.img img {
+  width: 60px;
+}

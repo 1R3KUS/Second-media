@@ -1,0 +1,9 @@
+.profile {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "f i"
+  "l p"
+  ;
+}
