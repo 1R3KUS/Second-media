@@ -11,7 +11,7 @@ function Profile(props) {
       <ProfileFoto />
       <FriendsList friends={props.friends}/>
       <ProfileInfo />
-      <MyPosts postsDB={props.profilePageDB.posts}/>
+      <MyPosts postsDB={props.profilePageDB.posts} newPostAdd={props.newPostAdd} changeTextArea={props.changeTextArea} textValue={props.profilePageDB.textValue}/>
     </div>
   )
 }

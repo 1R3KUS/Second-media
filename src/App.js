@@ -14,8 +14,8 @@ function App(props) {
         <div className="app-wrapper">
           <Navbar />
           <div className="app-content">
-            <Route path="/profile" render={ () => <Profile profilePageDB={props.state.profilePage} friends={props.state.friendsList.friends}/>} />
-            <Route exact path="/dialogs" render={ () => <Dialogs friends={props.state.friendsList.friends} message={props.state.messagesList.message}/>}/>
+            <Route path="/profile" render={ () => <Profile profilePageDB={props.state.profilePage} friends={props.state.friendsList.friends} newPostAdd={props.newPostAdd} changeTextArea={props.changeTextArea} />} />
+            <Route exact path="/dialogs" render={ () => <Dialogs friends={props.state.friendsList.friends} message={props.state.messagesList.message} />}/>
           </div>
         </div>
       </div>
